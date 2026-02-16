@@ -1,161 +1,120 @@
-# ai-learning-journey
+# Zero to Hero: AI Coding & Autonomous Agents
+
+> A comprehensive, hands-on course for complete beginners to learn Python, AI APIs, and build autonomous agents from scratch.
+
+[![Course Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-green)]()
+[![Time Commitment](https://img.shields.io/badge/Time-2--5%20hours%2Fweek-blue)]()
+[![Platform](https://img.shields.io/badge/Platform-macOS%20(M3)-orange)]()
+
+## 🎯 Course Overview
+
+This course is designed for **absolute beginners** with zero coding experience who want to build AI-powered applications and autonomous agents. You'll learn by doing, with theory introduced as needed to support hands-on projects.
+
+### What You'll Build
+- AI-powered chatbots and assistants
+- Autonomous agents that complete tasks
+- API-driven applications using Claude & ChatGPT
+- Real-world automation tools
+- Your own AI agent framework
+
+### Course Philosophy
+- **Hands-on first**: Build immediately, understand deeply later
+- **Progressive difficulty**: Each module builds on the previous
+- **Real projects**: No toy examples - build things you'll actually use
+- **Free start, scale up**: Begin with free tools, upgrade for advanced features
 
 ---
 
-# 🎓 The AI-Native Engineer: Zero-to-Hero
+## 📚 Course Structure
 
-**Project:** `ai-learning-journey`
+### **Phase 1: Foundations (Weeks 1-4)**
+Get your environment set up and learn the absolute basics of coding.
 
-**Focus:** Absolute Beginner, Zero-Cost AI, and Visual GitHub Management.
+- **[Module 0: Setup & First Steps](modules/00-setup.md)** (Week 1)
+- **[Module 1: Python Basics](modules/01-python-basics.md)** (Week 2)
+- **Module 2: Working with Files & APIs** (Week 3)
+- **[Module 3: Introduction to AI APIs](modules/03-intro-ai-apis.md)** (Week 4)
 
----
+### **Phase 2: Building AI Applications (Weeks 5-8)**
+Create practical AI-powered tools and applications.
 
-## 🛠 Phase 1: The "Command Center" (Physical Setup)
+- **Module 4: Building with Claude API** (Week 5)
+- **Module 5: Advanced Prompting & Function Calling** (Week 6)
+- **Module 6: Working with OpenAI** (Week 7)
+- **Module 7: Building Your First App** (Week 8)
 
-*Think of this like setting up your desk. We do this once and never again.*
+### **Phase 3: Autonomous Agents (Weeks 9-12)**
+Build agents that can think, plan, and execute tasks independently.
 
-### 1.1 The "Magic" Command
+- **[Module 8: Introduction to Agents](modules/08-intro-agents.md)** (Week 9)
+- **Module 9: Multi-Step Agents** (Week 10)
+- **Module 10: Multi-Agent Systems** (Week 11)
+- **Module 11: Production Agents** (Week 12)
 
-1. Press **Cmd + Space**, type `Terminal`, and hit Enter.
-2. Copy and paste this exactly:
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+### **Phase 4: Advanced Topics (Weeks 13+)**
+Go deeper into specialized areas based on your interests.
 
-```
-
-
-*(If it asks for your Mac password, type it. You won't see the letters moving—that's normal! Just hit Enter.)*
-3. Once that finishes, paste this:
-```bash
-brew install python git ollama
-
-```
-
-
-
-### 1.2 The Two Main Apps
-
-1. **Download [Cursor](https://cursor.com):** This is where you write code. It’s like a "Smart Word" for coding.
-2. **Download [GitHub Desktop](https://desktop.github.com):** This is how you "save" your work to the internet without using scary commands.
+- **Module 12: RAG (Retrieval Augmented Generation)**
+- **Module 13: Web Interfaces**
+- **Module 14: Advanced Agent Patterns**
 
 ---
 
-## 🌐 Phase 2: Connecting to the Cloud (The GitHub Mix-up)
+## 🚀 Getting Started
 
-*Here is the difference: **GitHub Web** is the "Cloud Storage" (like Google Drive). **GitHub Desktop** is the "Sync App" (like the Dropbox folder on your Mac).*
+### Quick Start (5 minutes)
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/ai-coding-course.git
+   cd ai-coding-course
+   ```
 
-### Step-by-Step Sync:
+2. **Start with Module 0**
+   - Open `modules/00-setup.md`
+   - Follow the setup instructions
+   - Complete the first lab
 
-1. **Go to GitHub.com (Web):** Log in and click the green **New** button to create a repository named `ai-learning-journey`.
-* *Crucial:* Check the box that says **"Add a README file."**
-
-
-2. **Open GitHub Desktop (App):**
-* Go to **File > Clone Repository**.
-* You will see your `ai-learning-journey` listed there. Click it and hit **Clone**.
-* **Where did it go?** It just created a folder on your Mac (usually in `Documents/GitHub`). **This is now your home base.**
-
-
-
----
-
-## 🤖 Phase 3: Setting Up Your FREE AI (Ollama)
-
-*You don't need to pay for Claude's API. We will run the AI directly on your M3 chip.*
-
-1. **Start Ollama:** Open the Ollama app you installed in Phase 1. You’ll see a little llama icon in your top Mac menu bar.
-2. **Download the "Brain":** Open your Terminal and type:
-```bash
-ollama run qwen2.5-coder:7b
-
-```
-
-
-*(Wait for it to download. This is a free, high-end coding AI that lives only on your Mac.)*
-3. **Link to Cursor:**
-* Open **Cursor**. Press **Cmd + Shift + X** (the Extensions view).
-* Search for and install **"Continue"**.
-* Click the **Continue** icon (a little "C" on the far left bar).
-* Change the model provider to **Ollama**.
-* **Result:** You can now highlight code and ask questions for **free**.
-
-
+3. **Check out resources**
+   - See `GITHUB_GUIDE.md` for GitHub basics
+   - See `resources/videos.md` for recommended videos
 
 ---
 
-## 🐍 Phase 4: Python Fluency (Spoon-Fed Version)
+## 🎓 Learning Resources
 
-*You only need to know 3 things to build AI tools:*
+- **[GitHub Setup Guide](GITHUB_GUIDE.md)** - Learn Git and GitHub
+- **[Recommended Videos](resources/videos.md)** - Curated video tutorials
+- **[Cheat Sheets](resources/cheatsheets/)** - Quick reference guides
 
-1. **Variables:** Giving a name to a piece of information.
-* `my_car = "Subaru"` (You just saved text into a label).
-
-
-2. **Lists:** A shopping list for code.
-* `kids_ages = [2.5, 4.5]`
-
-
-3. **The "Ask" (API):** Telling the AI what to do.
-* `ai.ask("How do I fix this car?")`
-
-
-
-### Lab 4.1: Your First Script
-
-1. In Cursor, click **File > Open Folder** and pick your `ai-learning-journey` folder.
-2. Right-click the sidebar and click **New File**. Name it `hello.py`.
-3. Type `print("Hello Levon, I'm coding!")`
-4. At the bottom of Cursor, you’ll see a **Terminal**. Type: `python3 hello.py`.
-5. **Vibe Code it:** Highlight that line, press **Cmd + K**, and type: *"Change this to a script that counts from 1 to 10."* Watch the AI write it for you.
+### Official Documentation
+- [Python Docs](https://docs.python.org/3/)
+- [Anthropic Claude API](https://docs.anthropic.com/)
+- [OpenAI API](https://platform.openai.com/docs)
 
 ---
 
-## 🤖 Phase 5: Building Agents (The Goal)
+## 🎯 Learning Outcomes
 
-*An Agent is just a Python script that has "Rules" and "Tools."*
-
-* **The Rule:** "You are a Cloud Consulting Assistant."
-* **The Tool:** "You are allowed to read files in this folder."
-* **The Task:** "Read my `README.md` and tell me what I should learn next."
-
----
-
-## 🚀 How to Save Your Work (The Visual Workflow)
-
-*Do this every time you finish a session:*
-
-1. Open the **GitHub Desktop** app.
-2. You will see a list of changes on the left.
-3. At the bottom left, there’s a box. Type: **"Finished my first Python script"**.
-4. Click the blue **Commit to main** button. (This saves it to your Mac's history).
-5. Click **Push Origin** at the top. (This sends it to the GitHub website).
+By the end of this course, you will be able to:
+- ✅ Write Python code confidently
+- ✅ Work with APIs and handle data
+- ✅ Build AI-powered applications
+- ✅ Create autonomous agents
+- ✅ Use Git and GitHub
+- ✅ Debug and troubleshoot code
 
 ---
 
-### Your First Homework
+## 📄 License
 
-1. Open **Cursor**.
-2. Open your **`ai-learning-journey`** folder.
-3. Create a file called `Syllabus.md` and paste this entire message into it.
-4. Use **GitHub Desktop** to "Commit" and "Push" it to the cloud.
+This course is open source and available under the MIT License.
 
 ---
 
-*Note: To customize how I talk to you or format these lessons in the future, you can always update your preferences [here](https://gemini.google.com/saved-info).*
+## 🎉 Let's Get Started!
 
-## 📖 Recommended Resources
-
-### 📺 Video & Visuals
-
-* **[Andrej Karpathy: Intro to LLMs](https://www.youtube.com/watch?v=zjkBMFhNj_g):** Best high-level overview.
-* **[Cursor's Official Tutorials](https://www.google.com/search?q=https://cursor.com/how-to-use):** Master the "Cmd+K" and "Cmd+L" shortcuts.
-* ** Watch: Andrej Karpathy's "Vibe Coding" Philosophy https://www.youtube.com/watch?v=zjkBMFhNj_g 
-* ** Course: DeepLearning.AI - AI Agents in Python https://www.google.com/search?q=https://www.deeplearning.ai/short-courses/ai-agents-in-python/
-* ** Tutorial: GitHub Hello World Guide https://docs.github.com/en/get-started/quickstart/hello-world
-
-### 📜 Documentation
-
-* **[Anthropic's Guide to Agents](https://www.google.com/search?q=https://www.anthropic.com/news/building-effective-agents):** Professional strategies for agentic design.
-* **[GitHub Skills](https://skills.github.com/):** Interactive labs for version control.
+Ready to build your first AI agent? Head to **[Module 0: Setup & First Steps](modules/00-setup.md)** and let's begin!
 
 ---
+
+**Remember**: Every expert was once a beginner. The only way to fail is to not start. 🚀
